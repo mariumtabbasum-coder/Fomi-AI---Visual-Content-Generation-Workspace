@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fomi AI - Visual Content Generation Workspace</title>
+    <meta name="description" content="Fomi AI creative workspace for high-fidelity portrait and visual content generation, featuring history strip, generation controls, and prompt-based image gallery." />
+    <meta property="og:title" content="Fomi AI - Visual Content Generation Workspace" />
+    <meta property="og:description" content="Fomi AI creative workspace for high-fidelity portrait and visual content generation, featuring history strip, generation controls, and prompt-based image gallery." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Immediate theme restore to eliminate theme flash during render -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('fomi_theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAF7F4] dark:bg-[#0E0D0C] text-[#1E1E1E] dark:text-[#F2ECE7] antialiased selection:bg-[#F3C4B8] selection:text-[#52251D]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

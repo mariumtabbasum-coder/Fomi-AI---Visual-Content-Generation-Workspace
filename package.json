@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
+    "dev": "vite --port=3000 --host 0.0.0.0",
     "build": "vite build",
-    "next:dev": "next dev",
-    "next:build": "next build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js .next",
     "lint": "tsc --noEmit"
