@@ -1,0 +1,6 @@
+{
+  "name": "Fomi AI - Visual Content Generation Workspace",
+  "description": "Fomi AI creative workspace for high-fidelity portrait and visual content generation, featuring history strip, generation controls, and prompt-based image gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
